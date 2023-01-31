@@ -2,7 +2,7 @@
   The purpose of this repo is to make notes for talking face/head generation.
 
 # Methods
-  This methods can divide into real-time and offline. Generating talking face in real-time is our goal, therefore we only discuss nearly real-time methods.
+  The methods can divide into real-time and offline. Generating talking face in real-time is our goal, therefore we only discuss nearly real-time methods.
 1. 2D-based methods
    * audio+image --> landmark --> GAN model --> face generation
    * ref：https://github.com/YuanxunLu/LiveSpeechPortraits
@@ -14,7 +14,6 @@
 4. NeRF-based methods
 
 # Datasets
-one video clip or multiple videos for training.
   (1) Chinese
      * News video from CCTV (https://news.cctv.com/)
      * record video by your phone.

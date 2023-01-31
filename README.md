@@ -26,6 +26,6 @@
     * the pretrained model (such as deepspeech) extract the high-level audio feature; or MFCC directly extract audio file, and mfcc features are obtained.
     
   * (2) video: 
-    *　detect and crop face, ffmpeg tool extracts image set in 25 fps.
+    * detect and crop face, ffmpeg tool extracts image set in 25 fps.
     * `ffmpeg -y -i xx.mp4 -r 25 ./img/`
-## 
+ 

@@ -22,10 +22,10 @@
      
 ## Preprocess
   * (1) Chinese audio: 
-    * ffmpeg extract audio file, mainly xx.wav file, the sample rate usually is 16k. the code is "ffmpeg -y -i xx.mp4 -async 1 -ac 1 -vn -acodec pcm_s16le -ar 16000 xx.wav"
+    * ffmpeg extract audio file, mainly xx.wav file, the sample rate usually is 16k. the code is `ffmpeg -y -i xx.mp4 -async 1 -ac 1 -vn -acodec pcm_s16le -ar 16000 xx.wav`
     * the pretrained model (such as deepspeech) extract the high-level audio feature; or MFCC directly extract audio file, and mfcc features are obtained.
     
   * (2) video: 
     *　detect and crop face, ffmpeg tool extracts image set in 25 fps.
-    * ffmpeg -y -i xx.mp4 -r 25 ./img/"
+    * `ffmpeg -y -i xx.mp4 -r 25 ./img/`
 ## 
